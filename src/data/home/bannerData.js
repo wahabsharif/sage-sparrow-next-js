@@ -1,32 +1,11 @@
 import bg from "@/images/backgrounds/main-slider-3-bg.jpg";
 
-export const mainSlider = [
+export const bannerData = [
   {
     id: 1,
     bg: "home-banner.webp",
     title: "Compliance confidence for visionary growth",
     href: "/about-us",
-  },
-];
-
-export const mainSliderTwo = [
-  {
-    id: 1,
-    bg: "main-slider-2-1.jpg",
-    title: "Provides quality \n consultancy",
-    href: "/about",
-  },
-  {
-    id: 2,
-    bg: "main-slider-2-2.jpg",
-    title: "Provides quality \n consultancy",
-    href: "/about",
-  },
-  {
-    id: 3,
-    bg: "main-slider-2-3.jpg",
-    title: "Provides quality \n consultancy",
-    href: "/about",
   },
 ];
 

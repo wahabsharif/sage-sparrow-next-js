@@ -18,15 +18,15 @@
 # Common
 --------------------------------------------------------------*/
 :root {
-  --oslim-font: "Catamaran", sans-serif;
+  --oslim-font: "Playfair Display", serif;
   --oslim-reey-font: "reeyregular";
   --oslim-gray: #81808c;
   --oslim-gray-rgb: 129, 128, 140;
   --oslim-white: #ffffff;
   --oslim-white-rgb: 255, 255, 255;
-  --oslim-black: #191825;
+  --oslim-black: #253238;
   --oslim-black-rgb: 25, 24, 37;
-  --oslim-base: #ff613c;
+  --oslim-base: #5c6a73;
   --oslim-base-rgb: 255, 97, 60;
   --oslim-extra: #fcf5f3;
   --oslim-extra-rgb: 252, 245, 243;
@@ -307,7 +307,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .section-title__title {
   margin: 0;
-  font-size: 55px;
+  font-size: 40px;
   line-height: 65px;
   font-weight: 800;
 }
@@ -1779,8 +1779,7 @@ input[type="search"]::-webkit-search-results-decoration {
   transform: translateY(-120px);
   transition-delay: 1000ms;
   transition: transform 2000ms ease, opacity 2000ms ease;
-  font-size: 120px;
-  line-height: 120px;
+  font-size: 80px;
 }
 
 .main-slider .thm-btn {
@@ -3379,7 +3378,7 @@ input[type="search"]::-webkit-search-results-decoration {
     rgba(255, 255, 255, 0) 50%,
     rgba(25, 24, 37, 0.96) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#191825', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#253238', GradientType=0);
 }
 
 .team-one__img:after {
@@ -4864,7 +4863,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .services-one {
   position: relative;
   display: block;
-  padding: 120px 0 90px;
+  padding: 20px 0 120px;
 }
 
 .services-one__single {
@@ -4950,7 +4949,7 @@ input[type="search"]::-webkit-search-results-decoration {
   align-items: center;
 }
 
-.services-one__title-icon:before {
+/* .services-one__title-icon:before {
   position: absolute;
   top: 0;
   right: -30px;
@@ -4958,7 +4957,7 @@ input[type="search"]::-webkit-search-results-decoration {
   width: 1px;
   content: "";
   background-color: #dcdce0;
-}
+} */
 
 .services-one__title-icon span {
   position: relative;
@@ -4979,7 +4978,7 @@ input[type="search"]::-webkit-search-results-decoration {
   font-size: 26px;
   font-weight: 800;
   line-height: 31px;
-  margin-left: 60px;
+  /* margin-left: 60px; */
 }
 
 .services-one__title a {

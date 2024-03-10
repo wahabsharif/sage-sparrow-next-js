@@ -7,7 +7,7 @@ import SwiperCore, {
   Pagination,
 } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SingleSlideOne from "./SingleSlideOne";
+import SingleBanner from "./SingleBanner";
 
 SwiperCore.use([EffectFade, Pagination, Navigation, Autoplay]);
 
@@ -29,7 +29,7 @@ const options = {
   },
 };
 
-const MainSlider = ({
+const Banner = ({
   sliders = [],
   className = "",
   navClassName = "main-slider__nav",
@@ -44,28 +44,13 @@ const MainSlider = ({
         <div className="swiper-wrapper">
           {sliders.map((slider) => (
             <SwiperSlide key={slider.id}>
-              <SingleSlideOne slider={slider} showShape={showShape} />
+              <SingleBanner slider={slider} showShape={showShape} />
             </SwiperSlide>
           ))}
         </div>
-        <div className="swiper-pagination" id="main-slider-pagination"></div>
-        {/* <div className={navClassName}>
-          <div
-            className="swiper-button-prev"
-            id="main-slider__swiper-button-prev"
-          >
-            <i className="icon-right-arrow icon-left-arrow"></i>
-          </div>
-          <div
-            className="swiper-button-next"
-            id="main-slider__swiper-button-next"
-          >
-            <i className="icon-right-arrow"></i>
-          </div>
-        </div> */}
       </Swiper>
     </section>
   );
 };
 
-export default MainSlider;
+export default Banner;

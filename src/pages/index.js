@@ -1,36 +1,22 @@
-import BenefitsOne from "@/components/Benefits/BenefitsOne";
-import CaseOne from "@/components/CaseSection/CaseOne";
-import CtaOne from "@/components/CtaSection/CtaOne";
-import FreeConsultation from "@/components/FreeConsultation/FreeConsultation";
-import Header from "@/components/Header/Header";
-import Layout from "@/components/Layout/Layout";
-import MainSlider from "@/components/MainSlider/MainSlider";
-import NewsOne from "@/components/NewsSection/NewsOne";
-import OurMission from "@/components/OurMission/OurMission";
-import TeamOne from "@/components/TeamSection/TeamOne";
-import TestimonialOne from "@/components/TestimonialSection/TestimonialOne";
-import TrustedOne from "@/components/TrustedSection/TrustedOne";
-import WelcomeOne from "@/components/WelcomeSection/WelcomeOne";
-import WorkTogether from "@/components/WorkTogether/WorkTogether";
-import { mainSlider } from "@/data/mainSlider";
 import React from "react";
+import Layout from "@/components/Layout/Layout";
+import Header from "@/components/Header/Header";
+import Banner from "@/components/Home/Banner";
+import { bannerData } from "@/data/home/bannerData";
+import Intro from "@/components/Home/Intro";
+import OurSectors from "@/components/Home/OurSectors";
+import OurServices from "@/components/Home/OurServices";
+import SageSparrowDifference from "@/components/Home/SageSparrowDifference";
 
 const Home = () => {
   return (
     <Layout pageTitle="">
       <Header />
-      <MainSlider sliders={mainSlider} showShape />
-      <WelcomeOne />
-      <WorkTogether />
-      <CaseOne />
-      <BenefitsOne />
-      <FreeConsultation />
-      <OurMission />
-      <TeamOne />
-      <TestimonialOne />
-      <TrustedOne />
-      <NewsOne showShape />
-      <CtaOne />
+      <Banner sliders={bannerData} showShape />
+      <Intro />
+      <OurSectors />
+      <OurServices />
+      <SageSparrowDifference />
     </Layout>
   );
 };
