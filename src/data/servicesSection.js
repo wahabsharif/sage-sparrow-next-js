@@ -4,8 +4,6 @@ import image6 from "@/images/services/service-details-img-3.jpg";
 import image4 from "@/images/services/service-details-img-4.jpg";
 import image2 from "@/images/services/service-details-img-5.jpg";
 import image5 from "@/images/services/service-details-img-6.jpg";
-import { faqs } from "./fAQsPage";
-import { servicesSubNavItems } from "./headerData";
 
 export const servicesOne = {
   tagline: "Our Services",
@@ -124,45 +122,6 @@ export const servicesTwo = {
       text: "Lorem ipsum is are \n many variations of \n pass of majority.",
     },
   ],
-};
-
-export const serviceDetailsSidebar = {
-  navItems: servicesSubNavItems.slice(3),
-  title: "Contact with \n us for any \n advice",
-  phoneIcon: "icon-phone-call",
-  text: "Need help? Talk to an expert",
-  phone: "+1- ( 246 ) 333 - 0079",
-  phoneHref: "12463330079",
-};
-
-const commonServiceDerails = {
-  icon: "icon-global",
-  text: "Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s.",
-  text2:
-    "It has survived not only five centuries. Lorem Ipsum is simply dummy text of the new design printng and type setting Ipsum take a look at our round. When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
-  text3:
-    "When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s. It has survived not only five centuries, but also the leap into electronic typesetting.",
-  contents: [
-    "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.",
-    "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.",
-  ],
-  howHelps: [
-    {
-      id: 1,
-      image: "service-details-how-help-1.jpg",
-      text: "Pellentesque pharetra ornare dui, non malesuada magna convallis vitae.",
-    },
-    {
-      id: 2,
-      image: "service-details-how-help-2.jpg",
-      text: " Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.",
-      points: [
-        "In id diam nec nisi congue tincidunt",
-        "Sed tristique lorem non tesque",
-      ],
-    },
-  ],
-  faqs,
 };
 
 export const consumerProduct = {
