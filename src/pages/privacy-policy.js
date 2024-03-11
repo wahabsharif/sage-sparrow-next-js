@@ -8,7 +8,7 @@ const BlogDetails = () => {
   return (
     <Layout pageTitle="Privacy Policy">
       <Header />
-      <PageHeader title="Blog Details" />
+      <PageHeader title="Privacy Policy" />
       <PrivacyPolicyPage />
     </Layout>
   );

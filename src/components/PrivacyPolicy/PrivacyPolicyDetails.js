@@ -74,37 +74,111 @@ const NewsDetailsLeft = ({ news = {} }) => {
           more information.
         </p>
       </div>
-      {/* <div className="news-details__bottom">
-        <p className="news-details__tags">
-          <span>Tags</span>
-          {tags.map((tag, i) => (
-            <a href="#" key={i}>
-              {tag}
-            </a>
-          ))}
+      <div className="news-details__content">
+        <h2 className="news-details__title">b. Compliance advisory</h2>
+        <h3 className="news-details__title">(i) Financial crime prevention</h3>
+        <p className="news-details__text-2">
+          Our team will develop for you all required financial crime prevention
+          policies and procedures that will ensure your firm adequately mitigate
+          risks associated with financial crime. Our pack might include the
+          following documents: AML/CTF and Sanctions policies and procedures;
+          fraud prevention policies and procedures; anti-bribery and corruption
+          policy and procedures and others.
         </p>
-        <div className="news-details__social-list">
-          {socials.map(({ id, href, icon }) => (
-            <a key={id} href={href}>
-              <i className={icon}></i>
-            </a>
-          ))}
-        </div>
+        <h3 className="news-details__title">(ii) Consumer duty</h3>
+        <p className="news-details__text-2">
+          Our team is able to develop for you all key policies and procedures in
+          order to comply with consumer duty principle and fair treatment of
+          vulnerable customers principle. Our pack includes the documents, but
+          not limited to the following: Product Governance Policy, Conflicts of
+          Interest Policy, Consumer Duty and Treating Customers Fairly Policy
+          and others.
+        </p>
+        <h3 className="news-details__title">
+          (iii) Compliance healthcheck and compliance audit
+        </h3>
+        <p className="news-details__text-2">
+          You should regularly review your manual(s), policies, procedures, and
+          documentation, as well as assessing whether your policies, procedures
+          comply with applicable regulatory requirements and assess whether they
+          are efficient enough to keep your business safe and efficient. The
+          objective is to provide a reasonable assurance that you have
+          sufficiently robust compliance controls in place to mitigate the risk
+          of non-compliance with the rules and regulations. Controls can include
+          documents such as policies and procedures, training, organisation
+          structure, management information, independent checks, verifications
+          or approvals.
+        </p>
+        <h3 className="news-details__title">
+          (iv) Ongoing compliance support{" "}
+        </h3>
+        <p className="news-details__text-2">
+          Our team is able to support you on ongoing basis making sure you
+          comply with regulatory requirements and meet the best practices in
+          industry. We can support your compliance through regular compliance
+          monitoring, training, compliance assurance reviews and other possible
+          ways.
+        </p>
+        <h3 className="news-details__title">(v) Notifications</h3>
+        <p className="news-details__text-2">
+          Firms may be required to inform certain state authorities of certain
+          events outside their normal reporting schedule such as governance
+          arrangements, business models change, regulatory breaches and changes
+          in controls and business activities. Our team is able to submit all
+          required notification to state authority on your behalf.
+        </p>
       </div>
-      <div className="news-details__pagenation-box">
-        <ul className="list-unstyled news-details__pagenation">
-          {pagination.map((text, i) => (
-            <li key={i}>
-              <TextSplit text={text} />
-            </li>
-          ))}
-        </ul>
+      <div className="news-details__content">
+        <h2 className="news-details__title">c. Risk management</h2>
+        <p className="news-details__text-1">
+          (i) Our team is able to develop your risk management framework for
+          you. It includes designing or enhancing your risk management
+          methodology for your business line. We can support you in performing
+          business wide risk assessments as well as financial crime risk
+          assessments.
+        </p>
       </div>
-      <CommentOne comments={comments} />
-      <div className="comment-form">
-        <h3 className="comment-form__title">Leave a Comment</h3>
-        <ContactForm inputs={inputs} btnText="Submit comment" />
-      </div> */}
+      <div className="news-details__content">
+        <h2 className="news-details__title">d. KYC managed service </h2>
+        <p className="news-details__text-1">
+          (i) Our team is able to conduct retrospectively transaction monitoring
+          of your customers. We conduct analysis of transactions and able to
+          identify all red flags and patterns associated with particular
+          customers. It will help you to have a clear understanding of your
+          customers’ transactional activities and suspicions which might threat
+          to your business as a whole.
+        </p>
+      </div>
+      <div className="news-details__content">
+        <h2 className="news-details__title">e. Transaction monitoring </h2>
+        <p className="news-details__text-1">
+          (i) Our team is able to conduct retrospectively transaction monitoring
+          of your customers. We conduct analysis of transactions and able to
+          identify all red flags and patterns associated with particular
+          customers. It will help you to have a clear understanding of your
+          customers’ transactional activities and suspicions which might threat
+          to your business as a whole.
+        </p>
+      </div>
+      <div className="news-details__content">
+        <h2 className="news-details__title">f. Trainings </h2>
+        <p className="news-details__text-1">
+          (i) Our experts are able to provide you and your team members various
+          trainings across all sectors to support the understanding of core
+          areas of regulation and to help you to meet the training requirements.
+        </p>
+        <p className="news-details__text-1">
+          (ii) Our experts are able to provide you with appropriate compliance
+          training. We offer two options: online trainings and classroom
+          trainings.
+        </p>
+        <p className="news-details__text-1">
+          (iii) Our experts specialise in different fields and are able to
+          provide you the trainings on consumer duty, financial crime
+          prevention, culture and ethics, code of conduct, risk management and
+          other matters associated with compliance and your business activities.
+        </p>
+      </div>
     </div>
   );
 };

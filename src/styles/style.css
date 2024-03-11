@@ -18,8 +18,9 @@
 # Common
 --------------------------------------------------------------*/
 :root {
-  --oslim-font: "Playfair Display", serif;
-  --oslim-reey-font: "reeyregular";
+  --oslim-font: "Ojuju", sans-serif;
+  --oslim-headings-font: "Playfair Display", serif;
+  --oslim-reey-font: "Ojuju", sans-serif;
   --oslim-gray: #81808c;
   --oslim-gray-rgb: 129, 128, 140;
   --oslim-white: #ffffff;
@@ -79,6 +80,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: var(--oslim-headings-font);
   color: var(--oslim-black);
   margin: 0;
 }
@@ -600,6 +602,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .stricky-header .main-menu__list ul {
   margin: 0;
   padding: 0;
+  width: 100%;
   list-style-type: none;
   align-items: center;
   display: none;
