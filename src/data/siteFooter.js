@@ -4,7 +4,7 @@ import bg from "@/images/shapes/site-footer-shape-1.png";
 const footerData = {
   bg,
   logo,
-  aboutText: "Great Experience for Building Customers & Businesses",
+  aboutText: "© 2024 Sage Sparrow Limited. Registered under Company Registration Number 04954156.Official Address: 4th Floor, Cannon Place, 78 Cannon Street, London, EC4N 6HL.Please note that calls may be recorded for training and monitoring purposes.Affiliated with the Association of Professional Compliance Consultants.",
   socials: [
     {
       id: 1,
@@ -30,56 +30,21 @@ const footerData = {
   links: [
     {
       id: 1,
-      text: "About",
-      href: "/about",
+      text: "Terms and Conditions",
+      href: "/",
     },
     {
       id: 2,
-      text: "Meet our team",
-      href: "/team",
-    },
-    {
-      id: 3,
-      text: "Case stories",
-      href: "/case",
-    },
-    {
-      id: 4,
-      text: "Latest news",
-      href: "/blog",
-    },
-    {
-      id: 5,
-      text: "Contact",
-      href: "/contact",
-    },
-    {
-      id: 6,
-      text: "Support",
-      href: "/about",
-    },
-    {
-      id: 7,
-      text: "Terms of use",
-      href: "/about",
-    },
-    {
-      id: 8,
-      text: "Privacy policy",
-      href: "/about",
-    },
-    {
-      id: 9,
-      text: "Help",
-      href: "/about",
+      text: "Privacy Policy",
+      href: "/privacy-policy",
     },
   ],
   newsletterText: "Subsrcibe for our upcoming latest articles and resources",
   address: "60 road, broklyn golden street new york. USA",
-  phone: "+1- ( 246 ) 333 - 0079",
+  phone: "+0- ( 000 ) 000 - 0000",
   phoneHref: "12463330079",
   email: "needhelp@company.com",
-  author: "Oslim",
+  author: "Sage Sparrow",
   year: new Date().getFullYear(),
 };
 

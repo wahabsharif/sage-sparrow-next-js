@@ -1,4 +1,4 @@
-import logo from "@/images/resources/logo-1.png";
+// import logo from "@/images/resources/logo-1.png";
 
 const sectors = {
   id: 1,
@@ -361,7 +361,7 @@ const socials = [
 ];
 
 const headerData = {
-  logo,
+  // logo,
   navItems,
   callText: "Need help? Talk to an expert",
   phone: "+1- ( 246 ) 333 - 0079",

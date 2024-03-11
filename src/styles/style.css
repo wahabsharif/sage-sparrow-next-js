@@ -4124,7 +4124,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .footer-widget__about-text {
-  font-size: 24px;
+  font-size: 15px;
   color: var(--oslim-white);
   font-weight: 600;
   margin: 0;
@@ -7478,6 +7478,12 @@ input[type="search"]::-webkit-search-results-decoration {
   position: relative;
   display: block;
   margin-top: 26px;
+}
+.news-details__content h1 {
+  font-size: 60px;
+}
+.news-details__content h2 {
+  font-size: 40px;
 }
 
 .news-details__sub-title {

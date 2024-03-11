@@ -30,8 +30,11 @@ const MobileMenu = ({ navItems = items, onePage = false }) => {
         </span>
         <div className="logo-box">
           <Link href="/" aria-label="logo image">
-            <Image src={logo.src} width={155} alt="" />
+            <Image src="" width={155} alt="" />
           </Link>
+          {/* <Link href="/" aria-label="logo image">
+            <Image src={logo.src} width={155} alt="" />
+          </Link> */}
         </div>
         <div className="mobile-nav__container">
           <MenuList navItems={navItems} mobile onePage={onePage} />

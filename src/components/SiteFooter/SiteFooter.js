@@ -36,21 +36,21 @@ const SiteFooter = ({ footerClassName = "" }) => {
           <Row>
             <Col xl={3} lg={6} md={6} className="animated fadeInUp">
               <div className="footer-widget__column footer-widget__about">
-                <div className="footer-widget__logo">
+                {/* <div className="footer-widget__logo">
                   <Link href="/">
                     <Image src={logo.src} alt="" />
                   </Link>
-                </div>
+                </div> */}
                 <div className="footer-widget__about-text-box">
                   <p className="footer-widget__about-text">{aboutText}</p>
                 </div>
-                <div className="site-footer__social">
+                {/* <div className="site-footer__social">
                   {socials.map(({ id, href, icon }) => (
                     <a key={id} href={href}>
                       <i className={icon}></i>
                     </a>
                   ))}
-                </div>
+                </div> */}
               </div>
             </Col>
             <Col xl={3} lg={6} md={6} className="animated fadeInUp">
