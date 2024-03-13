@@ -254,21 +254,21 @@ const resources = {
       name: "Events",
       href: "/events",
     },
-    {
-      id: 3,
-      name: "Factsheets",
-      href: "/factsheets",
-    },
-    {
-      id: 4,
-      name: "Talking regulation",
-      href: "/talking-regulation",
-    },
-    {
-      id: 5,
-      name: "Subscribe",
-      href: "/subscribe",
-    },
+    // {
+    //   id: 3,
+    //   name: "Factsheets",
+    //   href: "/factsheets",
+    // },
+    // {
+    //   id: 4,
+    //   name: "Talking regulation",
+    //   href: "/talking-regulation",
+    // },
+    // {
+    //   id: 5,
+    //   name: "Subscribe",
+    //   href: "/subscribe",
+    // },
   ],
 };
 const aboutUs = {
