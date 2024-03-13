@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 414.46">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: #5c6a73;
+            }
+
+            .cls-2,
+            .cls-3 {
+                fill: #a0b4bd;
+            }
+
+            .cls-3 {
+                font-size: 170.19px;
+                font-family: PlayfairDisplay-Black, Playfair Display;
+                font-weight: 800;
+            }
+
+            .cls-4 {
+                letter-spacing: -0.02em;
+            }
+
+            .cls-5 {
+                letter-spacing: 0em;
+            }
+
+            .cls-6 {
+                letter-spacing: -0.01em;
+            }
+
+            .cls-7 {
+                letter-spacing: -0.02em;
+            }
+
+            .cls-8 {
+                letter-spacing: -0.03em;
+            }
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <path class="cls-1"
+                d="M92.28,335.18l36.49-36.49V171.42L92,208.17V283L54.8,245.73a11,11,0,0,1,0-15.59L231,54,241.82,64.8l8.68-32.4L259.18,0l-32.4,8.68-32.4,8.68,11,11-184,184L3.23,230.55a11,11,0,0,0,0,15.58L21,263.92l71,71Z" />
+            <polygon class="cls-2" points="177.56 250.34 177.56 123.07 140.81 159.82 140.81 287.08 177.56 250.34" />
+            <path class="cls-1"
+                d="M315.45,164.71v0l-90-90v0l-36.73,36.73V238.73L225.48,202v-75.3L263.9,165.1a11,11,0,0,1,0,15.58L86.76,357.82l-8.17-8.17-8.69,32.4-8.68,32.41,32.4-8.69,32.4-8.68-13.68-13.68L297.27,198.47l18.18-18.18h0a11,11,0,0,0,0-15.58Z" />
+            <text class="cls-3" transform="translate(367.51 187.32)">Sa<tspan class="cls-4" x="194.69" y="0">g</tspan>
+                <tspan class="cls-5" x="288.3" y="0">e</tspan>
+                <tspan class="cls-1">
+                    <tspan x="0" y="143.63">Spar</tspan>
+                    <tspan class="cls-6" x="380.71" y="143.63">r</tspan>
+                    <tspan class="cls-7" x="460.87" y="143.63">o</tspan>
+                    <tspan class="cls-8" x="556.17" y="143.63">w</tspan>
+                </tspan>
+            </text>
+        </g>
+    </g>
+</svg>

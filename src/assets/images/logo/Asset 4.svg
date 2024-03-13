@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1059.17 1050.62">
+    <defs>
+        <style>
+            .cls-1,
+            .cls-6,
+            .cls-7,
+            .cls-8 {
+                fill: #5c6a73;
+            }
+
+            .cls-2,
+            .cls-3 {
+                fill: #a0b4bd;
+            }
+
+            .cls-3 {
+                font-size: 163.23px;
+                font-family: PlayfairDisplay-Black, Playfair Display;
+                font-weight: 800;
+            }
+
+            .cls-4 {
+                letter-spacing: -0.02em;
+            }
+
+            .cls-5 {
+                letter-spacing: 0em;
+                fill: #000;
+            }
+
+            .cls-6 {
+                letter-spacing: -0.01em;
+            }
+
+            .cls-7 {
+                letter-spacing: -0.02em;
+            }
+
+            .cls-8 {
+                letter-spacing: -0.03em;
+            }
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <path class="cls-1"
+                d="M393.48,680.27l74.06-74.06V347.91L393,422.5V574.27l-75.55-75.56a22.34,22.34,0,0,1,0-31.62L675,109.52l22,22L714.6,65.76,732.22,0,666.46,17.62,600.7,35.24,623.05,57.6,249.67,431l-36.93,36.93a22.36,22.36,0,0,0,0,31.62l36.11,36.11L393,679.75Z" />
+            <polygon class="cls-2" points="566.57 508.07 566.57 249.77 491.99 324.36 491.99 582.66 566.57 508.07" />
+            <path class="cls-1"
+                d="M846.42,334.29v-.06L663.78,151.58v.1l-74.55,74.54v258.3l74.59-74.59V257.1l78,78a22.34,22.34,0,0,1,0,31.62L382.27,726.22l-16.58-16.58L348.07,775.4l-17.63,65.76,65.77-17.62L462,805.92l-27.78-27.77L809.53,402.81l36.89-36.89h0a22.36,22.36,0,0,0,0-31.63Z" />
+            <text class="cls-3" transform="translate(0 1010.79)">Sa<tspan class="cls-4" x="186.73" y="0">g</tspan>
+                <tspan x="276.5" y="0">e</tspan>
+                <tspan class="cls-5" x="358.6" y="0"> </tspan>
+                <tspan class="cls-1" x="395" y="0">Spar</tspan>
+                <tspan class="cls-6" x="760.14" y="0">r</tspan>
+                <tspan class="cls-7" x="837.01" y="0">o</tspan>
+                <tspan class="cls-8" x="928.42" y="0">w</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

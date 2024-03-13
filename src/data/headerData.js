@@ -1,4 +1,4 @@
-// import logo from "@/images/resources/logo-1.png";
+import logo from "@/images/logo/sage-sparrow-landscape.png";
 
 const sectors = {
   id: 1,
@@ -89,155 +89,155 @@ const services = {
   id: 2,
   name: "Services",
   href: "/services",
-  subNavItems: [
-    {
-      id: 1,
-      name: "FCA Authorisation & Applications",
-      href: "/fca-authorisation-and-pplications",
-      subItems: [
-        {
-          id: 1,
-          name: "FCA Authorisation",
-          href: "/fca-authorisation",
-        },
-        { id: 2, name: "Brexit and TPR", href: "/brexit-and-tpr" },
-        {
-          id: 3,
-          name: "FCA Sandbox",
-          href: "/fca-sandbox",
-        },
-        {
-          id: 4,
-          name: "Variation of Permission",
-          href: "/variation-of-permission",
-        },
-        {
-          id: 5,
-          name: "Change in Control",
-          href: "/change-in-control",
-        },
-        {
-          id: 6,
-          name: "Appointed Representatives",
-          href: "/appointed-representatives",
-        },
-        {
-          id: 7,
-          name: "5MLD Registration",
-          href: "/5mld-registration",
-        },
-        {
-          id: 8,
-          name: "Agents and Distributors",
-          href: "/agents-and-distributors",
-        },
-      ],
-    },
-    {
-      id: 2,
-      name: "SEC Compliance & Registration",
-      href: "/sec-compliance-and-registration",
-      subItems: [
-        { id: 1, name: "SEC Registration", href: "/sec-registration" },
-        { id: 2, name: "Ongoing SEC Support", href: "/ongoing-sec-support" },
-      ],
-    },
-    {
-      id: 3,
-      name: "Compliance Advisory",
-      href: "/compliance-advisory",
-      subItems: [
-        {
-          id: 1,
-          name: "Consumer Duty",
-          href: "/consumer-duty",
-        },
-        { id: 2, name: "SMCR", href: "/smcr" },
-        {
-          id: 3,
-          name: "Compliance Healthcheck",
-          href: "/compliance-healthcheck",
-        },
-        {
-          id: 4,
-          name: "Due Diligence",
-          href: "/due-diligence",
-        },
-        {
-          id: 5,
-          name: "Ongoing Compliance Support",
-          href: "/ongoing-compliance-support",
-        },
-        { id: 6, name: "Secondments", href: "/secondments" },
-        {
-          id: 7,
-          name: "Safeguarding Audits",
-          href: "/safeguarding-audits",
-        },
-        {
-          id: 8,
-          name: "Financial Promotions",
-          href: "/financial-promotions",
-        },
-        {
-          id: 9,
-          name: "Notifications",
-          href: "/notifications",
-        },
-        {
-          id: 10,
-          name: "AR Monitoring",
-          href: "/ar-monitoring",
-        },
-      ],
-    },
-    {
-      id: 4,
-      name: "Prudential Services & Regulatory Reporting",
-      href: "/prudential-services-and-regulatory-reporting",
-      subItems: [
-        { id: 1, name: "Regulatory Reporting", href: "/regulatory-reporting" },
-        {
-          id: 2,
-          name: "Capital and Liquidity Adequacy",
-          href: "/capital-and-liquidity-adequacy",
-        },
-        { id: 3, name: "Wind-down planning", href: "/wind-down-planning" },
-        { id: 4, name: "ICARA", href: "/icara" },
-        { id: 5, name: "IFPR", href: "/ifpr" },
-      ],
-    },
-    {
-      id: 5,
-      name: "Training",
-      href: "/training",
-      subItems: [
-        {
-          id: 1,
-          name: "Classroom Training",
-          href: "/classroom-training",
-        },
-        { id: 2, name: "Online Training", href: "/online-training" },
-      ],
-    },
-    {
-      id: 6,
-      name: "Financial Crime",
-      href: "/financial-crime",
-    },
-    {
-      id: 7,
-      name: "Compliance Software",
-      href: "/compliance-software",
-      subItems: [
-        {
-          id: 1,
-          name: "PortAll",
-          href: "/port-all",
-        },
-      ],
-    },
-  ],
+  // subNavItems: [
+  //   {
+  //     id: 1,
+  //     name: "FCA Authorisation & Applications",
+  //     href: "/fca-authorisation-and-pplications",
+  //     subItems: [
+  //       {
+  //         id: 1,
+  //         name: "FCA Authorisation",
+  //         href: "/fca-authorisation",
+  //       },
+  //       { id: 2, name: "Brexit and TPR", href: "/brexit-and-tpr" },
+  //       {
+  //         id: 3,
+  //         name: "FCA Sandbox",
+  //         href: "/fca-sandbox",
+  //       },
+  //       {
+  //         id: 4,
+  //         name: "Variation of Permission",
+  //         href: "/variation-of-permission",
+  //       },
+  //       {
+  //         id: 5,
+  //         name: "Change in Control",
+  //         href: "/change-in-control",
+  //       },
+  //       {
+  //         id: 6,
+  //         name: "Appointed Representatives",
+  //         href: "/appointed-representatives",
+  //       },
+  //       {
+  //         id: 7,
+  //         name: "5MLD Registration",
+  //         href: "/5mld-registration",
+  //       },
+  //       {
+  //         id: 8,
+  //         name: "Agents and Distributors",
+  //         href: "/agents-and-distributors",
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     id: 2,
+  //     name: "SEC Compliance & Registration",
+  //     href: "/sec-compliance-and-registration",
+  //     subItems: [
+  //       { id: 1, name: "SEC Registration", href: "/sec-registration" },
+  //       { id: 2, name: "Ongoing SEC Support", href: "/ongoing-sec-support" },
+  //     ],
+  //   },
+  //   {
+  //     id: 3,
+  //     name: "Compliance Advisory",
+  //     href: "/compliance-advisory",
+  //     subItems: [
+  //       {
+  //         id: 1,
+  //         name: "Consumer Duty",
+  //         href: "/consumer-duty",
+  //       },
+  //       { id: 2, name: "SMCR", href: "/smcr" },
+  //       {
+  //         id: 3,
+  //         name: "Compliance Healthcheck",
+  //         href: "/compliance-healthcheck",
+  //       },
+  //       {
+  //         id: 4,
+  //         name: "Due Diligence",
+  //         href: "/due-diligence",
+  //       },
+  //       {
+  //         id: 5,
+  //         name: "Ongoing Compliance Support",
+  //         href: "/ongoing-compliance-support",
+  //       },
+  //       { id: 6, name: "Secondments", href: "/secondments" },
+  //       {
+  //         id: 7,
+  //         name: "Safeguarding Audits",
+  //         href: "/safeguarding-audits",
+  //       },
+  //       {
+  //         id: 8,
+  //         name: "Financial Promotions",
+  //         href: "/financial-promotions",
+  //       },
+  //       {
+  //         id: 9,
+  //         name: "Notifications",
+  //         href: "/notifications",
+  //       },
+  //       {
+  //         id: 10,
+  //         name: "AR Monitoring",
+  //         href: "/ar-monitoring",
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     id: 4,
+  //     name: "Prudential Services & Regulatory Reporting",
+  //     href: "/prudential-services-and-regulatory-reporting",
+  //     subItems: [
+  //       { id: 1, name: "Regulatory Reporting", href: "/regulatory-reporting" },
+  //       {
+  //         id: 2,
+  //         name: "Capital and Liquidity Adequacy",
+  //         href: "/capital-and-liquidity-adequacy",
+  //       },
+  //       { id: 3, name: "Wind-down planning", href: "/wind-down-planning" },
+  //       { id: 4, name: "ICARA", href: "/icara" },
+  //       { id: 5, name: "IFPR", href: "/ifpr" },
+  //     ],
+  //   },
+  //   {
+  //     id: 5,
+  //     name: "Training",
+  //     href: "/training",
+  //     subItems: [
+  //       {
+  //         id: 1,
+  //         name: "Classroom Training",
+  //         href: "/classroom-training",
+  //       },
+  //       { id: 2, name: "Online Training", href: "/online-training" },
+  //     ],
+  //   },
+  //   {
+  //     id: 6,
+  //     name: "Financial Crime",
+  //     href: "/financial-crime",
+  //   },
+  //   {
+  //     id: 7,
+  //     name: "Compliance Software",
+  //     href: "/compliance-software",
+  //     subItems: [
+  //       {
+  //         id: 1,
+  //         name: "PortAll",
+  //         href: "/port-all",
+  //       },
+  //     ],
+  //   },
+  // ],
 };
 const resources = {
   id: 3,
@@ -361,7 +361,7 @@ const socials = [
 ];
 
 const headerData = {
-  // logo,
+  logo,
   navItems,
   callText: "Need help? Talk to an expert",
   phone: "+1- ( 246 ) 333 - 0079",

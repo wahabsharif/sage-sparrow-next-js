@@ -4,7 +4,7 @@ import PageHeader from "@/components/Reuseable/PageHeader";
 import React from "react";
 import PrivacyPolicyPage from "@/components/PrivacyPolicy/PrivacyPolicyPage";
 
-const BlogDetails = () => {
+const PrivacyPolicy = () => {
   return (
     <Layout pageTitle="Privacy Policy">
       <Header />
@@ -14,4 +14,4 @@ const BlogDetails = () => {
   );
 };
 
-export default BlogDetails;
+export default PrivacyPolicy;
