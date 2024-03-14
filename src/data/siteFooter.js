@@ -4,7 +4,8 @@ import bg from "@/images/shapes/site-footer-shape-1.png";
 const footerData = {
   bg,
   logo,
-  aboutText: "© 2024 Sage Sparrow Limited. Registered under Company Registration Number 04954156.Official Address: 4th Floor, Cannon Place, 78 Cannon Street, London, EC4N 6HL.Please note that calls may be recorded for training and monitoring purposes.Affiliated with the Association of Professional Compliance Consultants.",
+  aboutText:
+    "© 2024 Sage Sparrow Limited. Registered under Company Registration Number 04954156.Official Address: 4th Floor, Cannon Place, 78 Cannon Street, London, EC4N 6HL.Please note that calls may be recorded for training and monitoring purposes.Affiliated with the Association of Professional Compliance Consultants.",
   socials: [
     {
       id: 1,
@@ -37,6 +38,11 @@ const footerData = {
       id: 2,
       text: "Privacy Policy",
       href: "/privacy-policy",
+    },
+    {
+      id: 3,
+      text: "Cookeis",
+      href: "/cookies",
     },
   ],
   newsletterText: "Subsrcibe for our upcoming latest articles and resources",
