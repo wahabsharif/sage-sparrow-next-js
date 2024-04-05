@@ -86,10 +86,10 @@ const SageSparrowDifference = () => {
               />
               <p className="work-together-tow__text-2">
                 Our foremost commitment is investing in our employees, the
-                driving force behind the distinctive Cosegic experience. With a
-                diverse, inclusive, and familial team, we prioritize trust,
-                mutual support, open communication, and a culture devoid of
-                egos, politics, or silo thinking. Creating a respectful
+                driving force behind the distinctive Sage Sparrow experience.
+                With a diverse, inclusive, and familial team, we prioritize
+                trust, mutual support, open communication, and a culture devoid
+                of egos, politics, or silo thinking. Creating a respectful
                 environment fosters the best in each individual, naturally
                 translating into exceptional service for our clients.
               </p>

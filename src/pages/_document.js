@@ -60,6 +60,16 @@ class MyDocument extends Document {
             content="Sage Sparrow - A Leading UK Compliance Consultancy"
           />
 
+          {/* Open Graph Meta Tags */}
+          <meta property="og:title" content="Sage Sparrow" />
+          <meta
+            property="og:description"
+            content="Sage Sparrow's guidance since 2003 has driven our compliance consultancy to excel, setting a standard for excellence in the industry."
+          />
+          <meta property="og:image" content="@/images/preview.png" />
+          {/* <meta property="og:url" content="URL to your website" /> */}
+          <meta property="og:type" content="website" />
+
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
             rel="preconnect"
@@ -71,6 +81,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
+
         <body>
           <Main />
           <NextScript />
