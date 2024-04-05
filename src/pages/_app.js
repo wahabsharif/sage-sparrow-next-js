@@ -2,7 +2,7 @@ import ContextProvider from "@/context/ContextProvider";
 import "@/vendors/animate/animate.min.css";
 import "@/vendors/animate/custom-animate.css";
 import "@/vendors/fontawesome/css/all.min.css";
-import "@/vendors/oslim-icons/style.css";
+import "@/vendors/sage-icons/style.css";
 import "@/vendors/reey-font/stylesheet.css";
 import "@/vendors/the-sayinistic-font/stylesheet.css";
 import "bootstrap/dist/css/bootstrap.min.css";

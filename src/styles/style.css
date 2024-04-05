@@ -446,7 +446,8 @@ input[type="search"]::-webkit-search-results-decoration {
   right: 0;
   height: 1px;
   content: "";
-  background-color: rgba(var(--oslim-white-rgb), 0.1);
+  background-color: #bdd6de;
+  /* background-color: rgba(var(--oslim-white-rgb), 0.1); */
   z-index: -1;
 }
 
