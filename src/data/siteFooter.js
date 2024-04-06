@@ -46,7 +46,7 @@ const footerData = {
     },
   ],
   newsletterText: "Subsrcibe for our upcoming latest articles and resources",
-  address: "60 road, broklyn golden street new york. USA",
+  address: "128 City Road, London, United Kingdom, EC1V 2NX",
   phone: "+0- ( 000 ) 000 - 0000",
   phoneHref: "12463330079",
   email: "needhelp@company.com",
