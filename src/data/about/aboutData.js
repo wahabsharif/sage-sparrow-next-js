@@ -1,7 +1,7 @@
 import image1 from "@/images/resources/work-together-img-1.jpg";
 import image2 from "@/images/resources/work-together-img-2.jpg";
 import parsonImage from "@/images/resources/work-together-person-img.jpg";
-import image3 from "@/images/resources/work-together-two-img-1.jpg";
+import image3 from "@/images/about-us.jpg";
 import shape from "@/images/shapes/work-together-shape-1.png";
 
 export const workTogether = {

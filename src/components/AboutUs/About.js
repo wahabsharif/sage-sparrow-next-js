@@ -14,7 +14,7 @@ const About = () => {
           <Col xl={6} lg={6}>
             <div className="work-together-two__left animated slideInLeft">
               <div className="work-together-two__img">
-                <Image src={image.src} alt="" />
+                <Image src={image.src} alt="About Sage Sparrow" />
               </div>
             </div>
           </Col>
