@@ -15,14 +15,14 @@ const OurSectors = ({ id = "", hideTitle = false, serviceCount }) => {
       <Container>
         {!hideTitle && <Title title={title} className="text-left" />}
         <p>
-          Our team, consisting of more than 60 professionals, collaborates
-          within specialized industry teams to serve a diverse client base
-          exceeding 800 entities. Our clientele spans various sectors,
-          encompassing wholesale investment firms (such as hedge funds, private
-          market firms, corporate finance, and brokers), capital markets
-          (including asset managers and broker/dealers), wealth management,
-          payment services and cryptoassets, consumer credit, and insurance and
-          lending.
+          Our team, which include greater than 60 professionals, collaborates
+          inside specialised enterprise groups to serve a various consumer base
+          exceeding 800 entities. Our customers spans diverse sectors,
+          encompassing wholesale funding firms (inclusive of hedge funds,
+          private marketplace firms, company finance, and brokers), capital
+          markets (along with asset managers and broker/dealers), wealth
+          management, fee offerings and cryptoassets, customer credit, and
+          coverage and lending.
         </p>
         <Row>
           {services.slice(0, serviceCount).map((service) => (

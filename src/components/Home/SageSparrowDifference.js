@@ -15,8 +15,8 @@ const SageSparrowDifference = () => {
             <div className="work-together-two__left animated slideInLeft">
               <div className="work-together-two__img">
                 <Image
-                  src="/imgs/sage-sparrow-difference/img-1.jpg"
-                  alt="Image"
+                  src="/imgs/sage-sparrow-difference/understanding-the-regulatory-landscape.webp"
+                  alt="understanding-the-regulatory-landscape"
                 />
               </div>
             </div>
@@ -60,8 +60,8 @@ const SageSparrowDifference = () => {
             <div className="work-together-two__left animated slideInLeft">
               <div className="work-together-two__img">
                 <Image
-                  src="/imgs/sage-sparrow-difference/img-2.jpg"
-                  alt="Image"
+                  src="/imgs/sage-sparrow-difference/our-unique-perspective-of-the-regulator.svg"
+                  alt="our-unique-perspective-of-the-regulator"
                 />
               </div>
             </div>
@@ -72,8 +72,8 @@ const SageSparrowDifference = () => {
             <div className="work-together-two__left animated slideInLeft">
               <div className="work-together-two__img">
                 <Image
-                  src="/imgs/sage-sparrow-difference/img-3.webp"
-                  alt="Image"
+                  src="/imgs/sage-sparrow-difference/ways-to-invest-in-your-employees.webp"
+                  alt="ways-to-invest-in-your-employees"
                 />
               </div>
             </div>
@@ -115,8 +115,8 @@ const SageSparrowDifference = () => {
             <div className="work-together-two__left animated slideInLeft">
               <div className="work-together-two__img">
                 <Image
-                  src="/imgs/sage-sparrow-difference/img-4.webp"
-                  alt="Image"
+                  src="/imgs/sage-sparrow-difference/inspiring-compliance-confidence.jpg"
+                  alt="Inspiring compliance confidence"
                 />
               </div>
             </div>

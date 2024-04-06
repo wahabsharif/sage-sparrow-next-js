@@ -25,5 +25,5 @@ export const aboutData = {
   image: image3,
   tagline: "get to know us",
   icon: "icon-recruit",
-  text: "Established in 2003, under the guidance of Sage Sparrow, Sage Sparrow stands out as one of the United Kingdom's premier compliance consultancies. Our team of regulatory compliance experts is dedicated to comprehensively understanding your business needs and is renowned for delivering exceptional quality and responsive service.",
+  text: "We are specializing in financial services regulation and compliance. With our deep understanding of the regulatory landscape and extensive knowledge of financial services regulations, we provide expert guidance and compliance solutions for cryptoasset firms, e-money institutions and payment service providers. Our mission is to help businesses thrive in the fast-paced and ever-changing world by ensuring regulatory compliance and enabling innovation. Trust us to be your strategic partner in navigating the complex regulatory landscape and driving the growth of your business.",
 };

@@ -15,14 +15,14 @@ const Intro = () => {
                 className="text-left"
               />
               <p className="work-together-tow__text-2">
-                With over 80 years of collective ex-regulator expertise
-                in-house, Sage Sparrow possesses a deep understanding of the
-                FCA&apos;s priorities in authorization applications. This
-                expertise enables us to assist our clients in submitting
-                comprehensive and precise applications to the Regulator,
-                ensuring success regardless of their firm&apos;s size or sector,
-                on the first attempt. Crafting exemplary FCA applications is a
-                source of pride and a core service offering for Sage Sparrow.
+                With over eighty years of collective ex-regulator understanding
+                in-house, Sage Sparrow possesses a deep information of the FCA`s
+                priorities in authorization programs. This understanding allows
+                us to help our customers in filing complete and particular
+                programs to the Regulator, making sure fulfillment no matter
+                their firm&apos;s length or sector, on the primary attempt.
+                Crafting exemplary FCA programs is a supply of pleasure and a
+                center carrier imparting for Sage Sparrow.
               </p>
               <Link href="/about" className="thm-btn work-together-tow__btn">
                 Learn More
@@ -37,12 +37,12 @@ const Intro = () => {
               />
               <p className="work-together-tow__text-2">
                 Following our merger in 2022, Compliancy Services and Portman
-                Compliance prioritized adopting a new name as one of their
-                initial business objectives. The decision to unite under a fresh
-                identity aimed to encompass the strengths of both firms and
-                signal the collaborative direction and enhanced resources
-                resulting from the partnership. For further insights into our
-                new name and our shared values, kindly click on the link below.
+                Compliance prioritized adopting a brand new call as certainly
+                considered one among their preliminary enterprise objectives.
+                The selection to unite beneathneath a fresh identification aimed
+                to embody the strengths of each corporations and sign the
+                collaborative path and more advantageous resources because of
+                the partnership.{""}
               </p>
               <Link href="/about" className="thm-btn work-together-tow__btn">
                 Discover More

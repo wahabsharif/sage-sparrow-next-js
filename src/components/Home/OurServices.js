@@ -15,13 +15,13 @@ const OurServices = ({ id = "", hideTitle = false, serviceCount }) => {
       <Container>
         {!hideTitle && <Title title={title} className="text-left" />}
         <p>
-          Sage Sparrow stands as a prominent compliance consultancy in the UK,
-          offering comprehensive support in various areas. Our services include
-          aiding clients with FCA authorization, continuous compliance
-          consulting, prudential services, conducting compliance health checks,
-          and managing regulatory projects. Additionally, we provide online
-          training and offer compliance software through our proprietary
-          platform, PortAll.
+          Sage Sparrow stands as a distinguished compliance consultancy
+          withinside the UK, imparting complete guide in numerous areas. Our
+          offerings include assisting customers with FCA authorization, non-stop
+          compliance consulting, prudential offerings, accomplishing compliance
+          fitness checks, and handling regulatory projects. Additionally, we
+          offer online education and provide compliance software program thru
+          our proprietary platform, PortAll.
         </p>
         <Row>
           {services.slice(0, serviceCount).map((service) => (
