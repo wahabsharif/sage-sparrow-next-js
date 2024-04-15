@@ -30,7 +30,8 @@ export const inputs = [
 const common = {
   phone: "+1- ( 246 ) 333 - 0079",
   phoneHref: "12463330079",
-  email: "needhelp@company.com",
+  emailUk: "info@sagesparrow.co.uk",
+  emailAe: "info@sagesparrow.ae",
 };
 
 export const contactOne = {
@@ -79,7 +80,9 @@ export const contactPage = {
 export const contactDetails = {
   title: "Get in Touch",
   text: "Nulla quis commodo ligula. Curabitur bibendum ante at nibh lobortis, nec volutpat mauris faucibus.",
-  address: "60 Road Broklyn Golden Street of New York. USA",
-  contactIcon: "icon-phone1",
+  addressUk: "128 City Road, London, EC1V 2NX, United Kingdom.",
+  addressAe:
+    "3805, Lake Terrace, Cluster D, Jumeirah Lakes Towers, Dubai, UAE.",
+  contactIcon: "icon-email-address",
   ...common,
 };
