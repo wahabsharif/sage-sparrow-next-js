@@ -1,11 +1,11 @@
-import logo from "@/images/resources/logo-1.png";
+import logo from "@/images/logo/sage-sparrow-logo.png";
 import bg from "@/images/shapes/site-footer-shape-1.png";
 
 const footerData = {
   bg,
   logo,
   aboutText:
-    "© 2024 Sage Sparrow Limited. Registered under Company Registration Number 04954156.Official Address: 4th Floor, Cannon Place, 78 Cannon Street, London, EC4N 6HL.Please note that calls may be recorded for training and monitoring purposes.Affiliated with the Association of Professional Compliance Consultants.",
+    "Sage Sparrow LLC. Official Address: 128 City Road, London, United Kingdom, EC1V 2NX. Please note that calls may be recorded for training and monitoring purposes.Affiliated with the Association of Professional Compliance Consultants.",
   socials: [
     {
       id: 1,
@@ -45,12 +45,15 @@ const footerData = {
       href: "/cookies",
     },
   ],
-  newsletterText: "Subsrcibe for our upcoming latest articles and resources",
-  address: "128 City Road, London, United Kingdom, EC1V 2NX",
+  newsletterText: "Subsrcibe for our upcoming latest news.",
+  addressUk: "128 City Road, London, EC1V 2NX, United Kingdom.",
+  addressAe:
+    "3805, Lake Terrace, Cluster D, Jumeirah Lakes Towers, Dubai, UAE.",
   phone: "+0- ( 000 ) 000 - 0000",
   phoneHref: "12463330079",
-  email: "needhelp@company.com",
-  author: "Sage Sparrow",
+  emailUk: "info@sagesparrow.co.uk",
+  emailAe: "info@sagesparrow.ae",
+  author: "Sage Sparrow LLC.",
   year: new Date().getFullYear(),
 };
 

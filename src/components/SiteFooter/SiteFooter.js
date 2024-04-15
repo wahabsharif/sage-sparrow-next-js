@@ -12,17 +12,20 @@ const {
   links,
   socials,
   newsletterText,
-  address,
+  addressUk,
+  addressAe,
   phone,
   phoneHref,
-  email,
+  emailUk,
+  emailAe,
 } = footerData;
 
 const SiteFooter = ({ footerClassName = "" }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const formData = new FormData(e.target);
-    console.log(formData.get("email"));
+    console.log(formData.get("emailUk"));
+    console.log(formData.get("emailAe"));
   };
 
   return (
@@ -36,14 +39,27 @@ const SiteFooter = ({ footerClassName = "" }) => {
           <Row>
             <Col xl={3} lg={6} md={6} className="animated fadeInUp">
               <div className="footer-widget__column footer-widget__about">
-                {/* <div className="footer-widget__logo">
+                <div className="footer-widget__logo">
                   <Link href="/">
-                    <Image src={logo.src} alt="" />
+                    <Image src={logo.src} alt="" width={150} />
                   </Link>
-                </div> */}
-                <div className="footer-widget__about-text-box">
-                  <p className="footer-widget__about-text">{aboutText}</p>
                 </div>
+                <a
+                  href={`mailto:${emailUk}`}
+                  className="footer-widget__contact-email"
+                >
+                  {emailUk}
+                </a>
+                <a
+                  href={`mailto:${emailAe}`}
+                  className="footer-widget__contact-email"
+                >
+                  <br />
+                  {emailAe}
+                </a>
+                {/* <div className="footer-widget__about-text-box">
+                  <p className="footer-widget__about-text">{aboutText}</p>
+                </div> */}
                 {/* <div className="site-footer__social">
                   {socials.map(({ id, href, icon }) => (
                     <a key={id} href={href}>
@@ -86,7 +102,7 @@ const SiteFooter = ({ footerClassName = "" }) => {
                     <input
                       type="email"
                       placeholder="Email address"
-                      name="email"
+                      name="emailUk"
                       required
                     />
                     <button
@@ -101,21 +117,17 @@ const SiteFooter = ({ footerClassName = "" }) => {
             </Col>
             <Col xl={3} lg={6} md={6} className="animated fadeInUp">
               <div className="footer-widget__column footer-widget__contact clearfix">
-                <h3 className="footer-widget__title">Contact</h3>
-                <p className="footer-widget__contact-text">{address}</p>
+                <h3 className="footer-widget__title">UK:</h3>
+                <p className="footer-widget__contact-text">{addressUk}</p>
+                <h3 className="footer-widget__title">UAE:</h3>
+                <p className="footer-widget__contact-text">{addressAe}</p>
                 <h4 className="footer-widget__contact-info">
-                  <a
+                  {/* <a
                     href={`tel:${phoneHref}`}
                     className="footer-widget__contact-number"
                   >
                     {phone}
-                  </a>{" "}
-                  <a
-                    href={`mailto:${email}`}
-                    className="footer-widget__contact-email"
-                  >
-                    {email}
-                  </a>
+                  </a> */}
                 </h4>
               </div>
             </Col>
