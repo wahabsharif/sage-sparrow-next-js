@@ -5,7 +5,15 @@ import { Image } from "react-bootstrap";
 import Link from "../Reuseable/Link";
 import MenuList from "./MenuList";
 
-const { logo, navItems: items, phone, phoneHref, email, socials } = headerData;
+const {
+  logo,
+  navItems: items,
+  phone,
+  phoneHref,
+  emailUk,
+  emailAe,
+  socials,
+} = headerData;
 
 const MobileMenu = ({ navItems = items, onePage = false }) => {
   const { menuStatus, toggleMenu } = useRootContext();
@@ -42,20 +50,24 @@ const MobileMenu = ({ navItems = items, onePage = false }) => {
         <ul className="mobile-nav__contact list-unstyled">
           <li>
             <i className="fa fa-envelope"></i>
-            <a href={`mailto:${email}`}>{email}</a>
+            <a href={`mailto:${emailUk}`}>{emailUk}</a>
           </li>
           <li>
+            <i className="fa fa-envelope"></i>
+            <a href={`mailto:${emailAe}`}>{emailAe}</a>
+          </li>
+          {/* <li>
             <i className="fa fa-phone-alt"></i>
             <a href={`tel:${phoneHref}`}>{phone}</a>
-          </li>
+          </li> */}
         </ul>
-        <div className="mobile-nav__top">
+        {/* <div className="mobile-nav__top">
           <div className="mobile-nav__social">
             {socials.map(({ id, href, icon }) => (
               <a key={id} href={href} className={icon}></a>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

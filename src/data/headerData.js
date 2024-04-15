@@ -366,7 +366,8 @@ const headerData = {
   callText: "Need help? Talk to an expert",
   phone: "+1- ( 246 ) 333 - 0079",
   phoneHref: "12463330079",
-  email: "needhelp@oslim.com",
+  emailAe: "info@sagesparrow.ae",
+  emailUk: "info@sagesparrow.co.uk",
   socials,
 };
 
