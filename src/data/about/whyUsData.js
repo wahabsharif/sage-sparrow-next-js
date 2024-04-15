@@ -1,4 +1,4 @@
-import image from "@/images/resources/tab-content-img-1.jpg";
+import image from "@/images/direct-proportionate-advice.webp";
 
 export const whyUsData = {
   tagline: "Quality Work",

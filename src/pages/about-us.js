@@ -5,7 +5,7 @@ import Header from "@/components/Header/Header";
 import Layout from "@/components/Layout/Layout";
 // import OurMissionTwo from "@/components/OurMission/OurMissionTwo";
 import PageHeader from "@/components/Reuseable/PageHeader";
-import TeamOne from "@/components/TeamSection/TeamOne";
+// import TeamOne from "@/components/TeamSection/TeamOne";
 // import TestimonialOne from "@/components/TestimonialSection/TestimonialOne";
 import About from "@/components/AboutUs/About";
 import WhyUs from "@/components/AboutUs/WhyUs";
@@ -19,7 +19,7 @@ const AboutUs = () => {
       <FreeConsultation />
       <WhyUs />
       {/* <OurMissionTwo className="our-mission-three" shape={1} /> */}
-      <TeamOne />
+      {/* <TeamOne /> */}
       {/* <TestimonialOne className="testimonial-two" /> */}
       {/* <BrandOne /> */}
       <CtaOne />

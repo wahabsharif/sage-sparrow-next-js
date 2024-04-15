@@ -11,7 +11,7 @@ const SingleTab = ({ tab = {}, current = "solutions" }) => {
     >
       <div className="tab-content__inner">
         <div className="tab-content__img">
-          <Image src={image.src} alt="" />
+          <Image src={image.src} alt="" height={172} />
         </div>
         <div className="tab-content__contnet">
           <h4 className="tab-content__title">{title}</h4>

@@ -3,7 +3,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
 
-const { title, titleHighlight, phone, phoneHref, email } = freeConsultation;
+const { title, titleHighlight, emailUk, emailAe } = freeConsultation;
 
 const FreeConsultation = () => {
   return (
@@ -15,22 +15,22 @@ const FreeConsultation = () => {
               <TextSplit text={title} highlight={titleHighlight} />
             </h3>
             <div className="free-consultation__icon">
-              <span className="icon-phone-call"></span>
+              <span className="fas fa-mail-bulk"></span>
             </div>
           </div>
           <div className="free-consultation__right">
             <h4 className="free-consultation__contact-info">
               <a
-                href={`tel:${phoneHref}`}
+                href={`mailto:${emailUk}`}
                 className="free-consultation__contact-number"
               >
-                {phone}
+                {emailUk}
               </a>
               <a
-                href={`mailto:${email}`}
-                className="free-consultation__contact-email"
+                href={`mailto:${emailAe}`}
+                className="free-consultation__contact-number"
               >
-                {email}
+                {emailAe}
               </a>
             </h4>
           </div>
